@@ -1,0 +1,16 @@
+# config.yaml
+data:
+  raw_path: "data/raw/mbti_1.csv"
+  processed_path: "data/processed/mbti_clean.csv"
+  test_size: 0.2
+  random_state: 42
+
+preprocessing:
+  remove_urls: true
+  remove_punctuation: true
+  remove_digits: false
+  # Since this is the "Raw" stage, we keep stop words for now
+  remove_stopwords: false 
+  
+model:
+  target_names: ["I-E", "N-S", "F-T", "J-P"]
