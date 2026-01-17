@@ -211,3 +211,9 @@ __marimo__/
 /data
 /models
 /notebooks/models
+
+.DS_Store
+
+experiments/*
+
+reports/*

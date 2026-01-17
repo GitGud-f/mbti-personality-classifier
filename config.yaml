@@ -9,7 +9,6 @@ preprocessing:
   remove_urls: true
   remove_punctuation: true
   remove_digits: false
-  # Since this is the "Raw" stage, we keep stop words for now
   remove_stopwords: false 
   
 model:
