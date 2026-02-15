@@ -36,7 +36,7 @@ The model is trained on the [MBTI Kaggle dataset](https://www.kaggle.com/dataset
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/k3rnel-paN1c5/mbti-personality-classifier.git
+git clone https://github.com/GitGud-f/mbti-personality-classifier.git
 cd mbti-personality-classifier
 ``` 
 
